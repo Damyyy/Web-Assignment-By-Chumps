@@ -147,6 +147,8 @@ img {vertical-align: middle;}
 /*ABOUT PENANG STYPE*/
 div h1 {
   text-align: center;
+  text-decoration-color: gray;
+  font-size: 50px;
   
 }
 
@@ -186,4 +188,16 @@ div h1 {
   vertical-align: middle;
 }
 
+/*Dropcap about Penang paragraph*/
+p:first-letter {
+    float: left;
+    font-size: 60px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 9px;
+}
+
+.about_penang_text{
+  padding: 40px;
+}
 
