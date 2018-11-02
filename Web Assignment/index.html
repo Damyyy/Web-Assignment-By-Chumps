@@ -76,8 +76,16 @@
             </div>
 
         </div>
-        
-        
+
+        <div class="about_penang_text_container">
+            <div class="about_penang_text">
+                <p>
+                    Penang is known for its rich heritage and architecture, its vibrant multicultural society, a wide range of modern entertainment and retail choices, natural features such as beaches and hills, and the world-famous Penang cuisine rich heritage and architecture, its vibrant multicultural society, a wide range of modern entertainment and retail choices, natural rich heritage and architecture, its vibrant multicultural society, a wide range of modern entertainment and retail choices, natural hitecture, its vibrant multicultural society, a wide range of modern entertainment and retail choices, natural rich heritage and architecture, its vibrant multicultural society, a wide range of modern entertainment and retail choice. <a href="about_penang.html"><em>Read More...</em></a>
+                </p>
+            </div>
+        </div>
+
+
         <!-- ATTRACTIONS -->
 
         <div>
@@ -102,9 +110,9 @@
             </div>
 
         </div>
-        
-        
-        
+
+
+
         <div class="about_penang_text_container">
             <div class="about_penang_text">
                 <p>
@@ -115,30 +123,30 @@
 
 
 
-            <script>
-                var slideIndex = 0;
-                showSlides();
+        <script>
+            var slideIndex = 0;
+            showSlides();
 
-                function showSlides() {
-                    var i;
-                    var slides = document.getElementsByClassName("mySlides");
-                    var dots = document.getElementsByClassName("dot");
-                    for (i = 0; i < slides.length; i++) {
-                        slides[i].style.display = "none";
-                    }
-                    slideIndex++;
-                    if (slideIndex > slides.length) {
-                        slideIndex = 1
-                    }
-                    for (i = 0; i < dots.length; i++) {
-                        dots[i].className = dots[i].className.replace(" active", "");
-                    }
-                    slides[slideIndex - 1].style.display = "block";
-                    dots[slideIndex - 1].className += " active";
-                    setTimeout(showSlides, 2000); // Change image every 2 seconds
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
                 }
+                slideIndex++;
+                if (slideIndex > slides.length) {
+                    slideIndex = 1
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
 
-            </script>
+        </script>
 
 
     </main>
