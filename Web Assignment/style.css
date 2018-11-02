@@ -236,7 +236,7 @@ padding-top: 20px;
 
 }
 
-.about_penang_text{
+.about_penang_text_header{
   text-align: right;
   font-size: 100px;
   font-weight: bold;
@@ -273,3 +273,7 @@ p {
 
 
 
+
+.about_penang_text_header {
+    
+}
