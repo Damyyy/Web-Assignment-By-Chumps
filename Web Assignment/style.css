@@ -189,7 +189,7 @@ div h1 {
 }
 
 /*Dropcap about Penang paragraph*/
-p:first-letter {
+.about_penang_text_container :first-letter {
     float: left;
     font-size: 60px;
     line-height: 1;
@@ -197,7 +197,7 @@ p:first-letter {
     margin-right: 9px;
 }
 
-.about_penang_text{
+.about_penang_text_container{
   padding: 40px;
 }
 
