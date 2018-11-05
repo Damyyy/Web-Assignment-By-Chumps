@@ -272,10 +272,13 @@ p {
   
 }
 
+
 .about_penang_text_header {
     
 }
+
 /*Awards Page*/
-figure.awardpage { text-align: center;
-    
+
+figure.awardpage { 
+    text-align: center;    
 }
