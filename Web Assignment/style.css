@@ -228,20 +228,21 @@ div h1 {
 PENANG PAGE*/
 
 
-.about_container {
+.parent_container {
   width: 100%;
-padding-top: 20px;
+  padding-top: 20px;
   padding: 50px;
   
   
 
 }
 
-.about_penang_text_header{
-  text-align: right;
+.heading_text{
+  text-align: left;
   font-size: 100px;
   font-weight: bold;
   float: left;
+  background-color: aqua;
 }
 
 
@@ -270,10 +271,6 @@ p {
   clear: both;
   
 }
-
-
-
-
 
 .about_penang_text_header {
     
