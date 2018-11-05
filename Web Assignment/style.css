@@ -9,7 +9,7 @@ nav {
   background-color: #333;
 }
 
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -17,13 +17,13 @@ ul {
   display: inline-block;
 }
 
-li {
+nav li {
   float: left;
   align-self: stretch;
   margin: 0 auto;
 }
 
-li a {
+nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -37,7 +37,7 @@ body {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+nav li a:hover {
   background-color: #111;
 }
 
@@ -224,7 +224,8 @@ div h1 {
   padding: 40px;
 }
 
-/*ABOUT PENANG PAGE*/
+/*ABOUT
+PENANG PAGE*/
 
 
 .parent_container {
@@ -273,4 +274,36 @@ p {
 
 .about_penang_text_header {
     
+}
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+footer{
+    text-align: center;
+}
+
+footer h5{
+    color: black;
+}
+
+footer p{
+    color: darkgray;
+}
+
+footer ul{
+    list-style-type: circle;
+    text-align: left;
+}
+article.cuisine{
+    text-align: center;
+=======
+/*Awards Page*/
+figure.awardpage { text-align: center;
+    
+>>>>>>> d5b87e1deec4b374432601d19af57ae6d279e91c
+=======
+/*Awards Page*/
+figure.awardpage { text-align: center;
+    
+>>>>>>> d5b87e1deec4b374432601d19af57ae6d279e91c
 }
