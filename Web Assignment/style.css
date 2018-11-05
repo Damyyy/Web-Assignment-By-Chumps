@@ -224,7 +224,8 @@ div h1 {
   padding: 40px;
 }
 
-/*ABOUT PENANG PAGE*/
+/*ABOUT
+PENANG PAGE*/
 
 
 .about_container {
@@ -275,5 +276,9 @@ p {
 
 
 .about_penang_text_header {
+    
+}
+/*Awards Page*/
+figure.awardpage { text-align: center;
     
 }
