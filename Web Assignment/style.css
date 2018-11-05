@@ -272,9 +272,11 @@ p {
   
 }
 
+
 .about_penang_text_header {
     
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -296,14 +298,9 @@ footer ul{
 }
 article.cuisine{
     text-align: center;
-=======
+
 /*Awards Page*/
-figure.awardpage { text-align: center;
-    
->>>>>>> d5b87e1deec4b374432601d19af57ae6d279e91c
-=======
-/*Awards Page*/
-figure.awardpage { text-align: center;
-    
->>>>>>> d5b87e1deec4b374432601d19af57ae6d279e91c
+
+figure.awardpage { 
+    text-align: center;    
 }
