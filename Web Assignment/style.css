@@ -294,7 +294,7 @@ p {
 
 .about_penang_text_header {}
 
-<<<<<<< HEAD <<<<<<< HEAD <<<<<<< HEAD footer {
+footer {
   text-align: center;
 }
 
@@ -310,12 +310,13 @@ footer ul {
   list-style-type: circle;
   text-align: left;
 }
-
+/*Cuisine Page*/
 article.cuisine {
-  text-align: center;
+  color: black;
+}
 
-  /*Awards Page*/
+/*Awards Page*/
 
-  figure.awardpage {
+figure.awardpage {
     text-align: center;
-  }
+}
