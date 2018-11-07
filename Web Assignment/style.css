@@ -7,15 +7,17 @@ nav_container{
   margin: 200px;
 }
 */
-.logo_container{
+.logo_container {
   width: 100%;
   padding-right: 100px;
   text-align: center;
 }
-.logo{
+
+.logo {
   width: 200px;
   text-align: center;
 }
+
 nav {
   padding: 20px;
   width: 100%;
@@ -249,12 +251,12 @@ PENANG PAGE*/
   width: 100%;
   padding-top: 20px;
   padding: 50px;
-  
-  
+
+
 
 }
 
-.heading_text{
+.heading_text {
   text-align: left;
   font-size: 100px;
   font-weight: bold;
@@ -263,7 +265,7 @@ PENANG PAGE*/
 }
 
 
-.about_picture_1{
+.about_picture_1 {
   float: right;
 }
 
@@ -283,41 +285,37 @@ p {
   margin-right: 9px;
 }
 
-.about_penang_text_container_about_page{
+.about_penang_text_container_about_page {
   padding: 50px;
   clear: both;
-  
+
 }
 
 
-.about_penang_text_header {
-    
-}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+.about_penang_text_header {}
 
-footer{
+<<<<<<< HEAD <<<<<<< HEAD <<<<<<< HEAD footer {
+  text-align: center;
+}
+
+footer h5 {
+  color: black;
+}
+
+footer p {
+  color: darkgray;
+}
+
+footer ul {
+  list-style-type: circle;
+  text-align: left;
+}
+
+article.cuisine {
+  text-align: center;
+
+  /*Awards Page*/
+
+  figure.awardpage {
     text-align: center;
-}
-
-footer h5{
-    color: black;
-}
-
-footer p{
-    color: darkgray;
-}
-
-footer ul{
-    list-style-type: circle;
-    text-align: left;
-}
-article.cuisine{
-    text-align: center;
-
-/*Awards Page*/
-
-figure.awardpage { 
-    text-align: center;    
-}
+  }
