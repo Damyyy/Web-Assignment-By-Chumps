@@ -269,12 +269,6 @@ PENANG PAGE*/
     float: right;
 }
 
-p {
-    clear: both;
-
-}
-
-
 
 .about_penang_text_container_about_page :first-letter {
     clear: both;
@@ -291,8 +285,10 @@ p {
 
 }
 
-
-.about_penang_text_header {}
+p.about_penang{
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
 footer {
     text-align: center;
@@ -320,4 +316,18 @@ article.cuisine {
 
 figure.awardpage {
     text-align: center;
+}
+/*Events*/
+article.events{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+img.events{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 500px;
+}
+img:hover{
+    box-shadow: 0 0 2px 1px rgba(0,140, 186, 0.5);
 }
