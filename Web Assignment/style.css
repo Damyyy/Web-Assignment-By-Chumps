@@ -1,54 +1,89 @@
 /* NAV BAR */
 header {}
 
-/*
-nav_container{
-  background-color: aqua;
-  margin: 200px;
+
+.nav_list{
+    margin-left: auto;
 }
-*/
-.logo_container {
-    width: 100%;
-    padding-right: 100px;
+.nav_container{
+/*    padding: 10px;*/
+/*    align-content: center;*/
+    align-items: center;
+/*    text-align: center;*/
+/*  background-color: yellow;*/
+    background-color: #333;
+  margin: auto;
     text-align: center;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: block;
+    float: right;
+/*
+    padding-left: 100px;
+    padding-right: 100px;
+*/
+}
+.logo_container {
+    padding-top: 10px;
+    margin: auto;
+    float: left;
+    width: 20%;
+/*    padding-left: 250px;*/
+/*    text-align: center;*/
 }
 
+/*
+.nav_list{
+    width: 50%; 
+}
+*/
 .logo {
     width: 200px;
     text-align: center;
+    display: block;
 }
 
 nav {
-    padding: 20px;
-    width: 100%;
-    height: 100px;
-    margin: 0 auto;
+    padding-top: 20px;
+/*    padding: 20px;*/
+/*    width: 100%;*/
+    height: auto;
+/*    margin: 0 auto;*/
     list-style: none;
-    text-align: center;
+/*    text-align: center;*/
     background-color: #333;
+    text-align: right;
+    
 }
 
 nav ul {
+    display: inline-block;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     display: inline-block;
+/*    width: 80%;*/
+    text-align: center;
+    background-color: aqua;
+/*    background-color: #333;*/
 }
 
 nav li {
     float: left;
     align-self: stretch;
     margin: 0 auto;
+    text-align: center;
 }
 
 nav li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px;
     text-decoration: none;
-    align-self: stretch;
+/*    align-self: stretch;*/
 }
 
 body {
@@ -80,8 +115,11 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
+/*    display: inline-block;*/
+    display: block;
     max-width: 100000px;
-    position: relative;
+/*    position: inherit;*/
+/*    position: relative;*/
     margin: auto;
 
 }
@@ -159,7 +197,8 @@ img {
 
 .slideshow-container {
     width: 100%;
-    height: 500px;
+    height: auto;
+   display: block;
 }
 
 .slide_image {
