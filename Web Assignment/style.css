@@ -2,9 +2,7 @@
 header {}
 
 
-.nav_list{
-    margin-left: auto;
-}
+
 .nav_container{
 /*    padding: 10px;*/
 /*    align-content: center;*/
@@ -25,7 +23,7 @@ header {}
 */
 }
 .logo_container {
-    padding-top: 10px;
+    padding-top: 15px;
     margin: auto;
     float: left;
     width: 20%;
@@ -52,7 +50,7 @@ nav {
 /*    margin: 0 auto;*/
     list-style: none;
 /*    text-align: center;*/
-    background-color: #333;
+/*    background-color: #333;*/
     text-align: right;
     
 }
@@ -61,12 +59,12 @@ nav ul {
     display: inline-block;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-bottom: 15px;
     overflow: hidden;
     display: inline-block;
 /*    width: 80%;*/
     text-align: center;
-    background-color: aqua;
+/*    background-color: aqua;*/
 /*    background-color: #333;*/
 }
 
@@ -92,7 +90,7 @@ body {
 
 /* Change the link color to #111 (black) on hover */
 nav li a:hover {
-    background-color: #111;
+    background-color: orange;
 }
 
 
@@ -115,8 +113,8 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-/*    display: inline-block;*/
-    display: block;
+    display: inline-block;
+/*    display: block;*/
     max-width: 100000px;
 /*    position: inherit;*/
 /*    position: relative;*/
@@ -160,12 +158,14 @@ img {
 }
 
 /* Fading animation */
+/*
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
 }
+*/
 
 @-webkit-keyframes fade {
     from {
