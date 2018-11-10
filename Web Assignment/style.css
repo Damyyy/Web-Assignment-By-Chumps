@@ -3,32 +3,33 @@ header {}
 
 
 
-.nav_container{
-/*    padding: 10px;*/
-/*    align-content: center;*/
+.nav_container {
+    /*    padding: 10px;*/
+    /*    align-content: center;*/
     align-items: center;
-/*    text-align: center;*/
-/*  background-color: yellow;*/
+    /*    text-align: center;*/
+    /*  background-color: yellow;*/
     background-color: #333;
-  margin: auto;
+    margin: auto;
     text-align: center;
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
     display: block;
     float: right;
-/*
+    /*
     padding-left: 100px;
     padding-right: 100px;
 */
 }
+
 .logo_container {
     padding-top: 15px;
     margin: auto;
     float: left;
     width: 20%;
-/*    padding-left: 250px;*/
-/*    text-align: center;*/
+    /*    padding-left: 250px;*/
+    /*    text-align: center;*/
 }
 
 /*
@@ -44,15 +45,15 @@ header {}
 
 nav {
     padding-top: 20px;
-/*    padding: 20px;*/
-/*    width: 100%;*/
+    /*    padding: 20px;*/
+    /*    width: 100%;*/
     height: auto;
-/*    margin: 0 auto;*/
+    /*    margin: 0 auto;*/
     list-style: none;
-/*    text-align: center;*/
-/*    background-color: #333;*/
+    /*    text-align: center;*/
+    /*    background-color: #333;*/
     text-align: right;
-    
+
 }
 
 nav ul {
@@ -62,10 +63,10 @@ nav ul {
     padding-bottom: 15px;
     overflow: hidden;
     display: inline-block;
-/*    width: 80%;*/
+    /*    width: 80%;*/
     text-align: center;
-/*    background-color: aqua;*/
-/*    background-color: #333;*/
+    /*    background-color: aqua;*/
+    /*    background-color: #333;*/
 }
 
 nav li {
@@ -81,7 +82,7 @@ nav li a {
     text-align: center;
     padding: 20px;
     text-decoration: none;
-/*    align-self: stretch;*/
+    /*    align-self: stretch;*/
 }
 
 body {
@@ -114,10 +115,10 @@ img {
 /* Slideshow container */
 .slideshow-container {
     display: inline-block;
-/*    display: block;*/
+    /*    display: block;*/
     max-width: 100000px;
-/*    position: inherit;*/
-/*    position: relative;*/
+    /*    position: inherit;*/
+    /*    position: relative;*/
     margin: auto;
 
 }
@@ -198,7 +199,7 @@ img {
 .slideshow-container {
     width: 100%;
     height: auto;
-   display: block;
+    display: block;
 }
 
 .slide_image {
@@ -319,15 +320,17 @@ PENANG PAGE*/
 }
 
 .about_penang_text_container_about_page {
-    padding: 50px;
+    padding: 5%;
     clear: both;
 
 }
 
-p.about_penang{
+/*
+p.about_penang {
     margin-left: 20%;
     margin-right: 20%;
 }
+*/
 
 footer {
     text-align: center;
@@ -356,41 +359,57 @@ article.cuisine {
 figure.awardpage {
     text-align: center;
 }
+
 /*Events*/
-article.events{
+article.events {
     margin-left: 20%;
     margin-right: 20%;
 }
-img.events{
+
+img.events {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
     width: 500px;
 }
-img:hover{
-    box-shadow: 0 0 2px 1px rgba(0,140, 186, 0.5);
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
+
 /*Attractions*/
-img.attractions{
+img.attractions {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
     width: 500px;
 }
-article.attractions{
+
+article.attractions {
     margin-left: 20%;
     margin-right: 20%;
 }
+
 /*Feedback Form*/
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 
