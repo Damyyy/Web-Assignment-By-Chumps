@@ -301,7 +301,7 @@ PENANG PAGE*/
     font-size: 100px;
     font-weight: bold;
     float: left;
-    background-color: aqua;
+    background-color: whitesmoke;
 }
 
 
@@ -351,7 +351,15 @@ footer ul {
 
 /*Cuisine Page*/
 article.cuisine {
-    color: black;
+    margin-left: 20%;
+    margin-right: 20%
+}
+
+img.cuisine {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 500px;
 }
 
 /*Awards Page*/
