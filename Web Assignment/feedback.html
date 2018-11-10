@@ -42,7 +42,12 @@
                 <label for="fname">Name</label>
                 <input type="text" id="name" name="name" placeholder="Your name..">
                 
+                <label for="subject">Gender</label><br>
+                <input type="radio" name="gender" value="male" checked> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other"> Other <br><br>
                 <label for="country">Country</label>
+
                 <select>
                     <option value="AF">Afghanistan</option>
                     <option value="AX">Åland Islands</option>
@@ -294,7 +299,9 @@
                     <option value="ZM">Zambia</option>
                     <option value="ZW">Zimbabwe</option>
                 </select>
-
+                <label for="subject">Rating</label>
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                
                 <label for="subject">Feedback</label>
                 <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
