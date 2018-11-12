@@ -229,7 +229,6 @@ div h1 {
     text-align: center;
     text-decoration-color: gray;
     font-size: 50px;
-
 }
 
 /*GRID CSS*/
@@ -397,7 +396,17 @@ article.attractions {
     margin-left: 20%;
     margin-right: 20%;
 }
-
+/*Landmark*/
+img.landmark{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 500px;
+}
+article.landmark{
+    margin-left: 20%;
+    margin-right: 20%;    
+}
 /*Feedback Form*/
 input[type=text],
 select,
@@ -449,12 +458,12 @@ input[type=submit]:hover {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
-/*    background-color: #2196F3;*/
+    /*    background-color: #2196F3;*/
     padding: 10px;
 }
 
 .members-grid > div {
-/*    background-color: rgba(255, 255, 255, 0.8);*/
+    /*    background-color: rgba(255, 255, 255, 0.8);*/
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
@@ -468,11 +477,39 @@ input[type=submit]:hover {
     border-radius: 50%;
 }
 
-.member-name{
+.member-name {
     font-size: 20px;
     font-weight: bold;
 }
 
-.member-description{
+.member-description {
     font-size: 15px;
+}
+
+/*Table for About Penang*/
+table {
+    margin-right: 5px;
+    border-collapse: collapse;
+    float: right;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+th {
+    background-color: red;
+    color: white;
+}
+
+td {
+    background-color: white;
+    color: black;
 }
