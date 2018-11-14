@@ -1,3 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
 /* NAV BAR */
 header {}
 
@@ -301,6 +308,7 @@ PENANG PAGE*/
     font-weight: bold;
     float: left;
     background-color: whitesmoke;
+    padding: auto;
 }
 
 
@@ -312,8 +320,8 @@ PENANG PAGE*/
 .about_penang_text_container_about_page :first-letter {
     clear: both;
     float: left;
-    font-size: 60px;
-    line-height: 1;
+    font-size: 1;
+    line-height: 100px;
     font-weight: bold;
     margin-right: 9px;
 }
@@ -321,6 +329,7 @@ PENANG PAGE*/
 .about_penang_text_container_about_page {
     padding: 5%;
     clear: both;
+    line-height: 30px;
 
 }
 
@@ -513,7 +522,7 @@ th {
 }
 
 td {
-    background-color: white;
+    background-color: lightgrey;
     color: black;
 }
 /*Footer nav thing*/
