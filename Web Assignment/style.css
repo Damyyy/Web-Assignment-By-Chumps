@@ -396,17 +396,20 @@ article.attractions {
     margin-left: 20%;
     margin-right: 20%;
 }
+
 /*Landmark*/
-img.landmark{
+img.landmark {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
     width: 500px;
 }
-article.landmark{
+
+article.landmark {
     margin-left: 20%;
-    margin-right: 20%;    
+    margin-right: 20%;
 }
+
 /*Feedback Form*/
 input[type=text],
 select,
@@ -512,4 +515,12 @@ th {
 td {
     background-color: white;
     color: black;
+}
+/*Footer nav thing*/
+/*Someone make this neat plz*/
+ul.foot{
+    float: right;
+}
+ul.toes{
+    float: left;
 }
