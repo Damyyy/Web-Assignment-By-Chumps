@@ -9,6 +9,23 @@ body{
 header {}
 
 
+/* TITLE */
+.headingLine{
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 10px solid #ffcc00; 
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+    font-family: sans-serif;
+    padding-top: 40px;
+} 
+
+h1 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+
 
 .nav_container {
     /*    padding: 10px;*/
@@ -527,9 +544,37 @@ td {
 }
 /*Footer nav thing*/
 /*Someone make this neat plz*/
-ul.foot{
-    float: right;
+.foot{
+    font-size: 15px;
+    list-style-type: none;
+    text-align: center;
+     padding: 0px;
 }
-ul.toes{
-    float: left;
+.toes{
+    font-size: 15px;
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+/*        background-color: #2196F3;*/
+    padding: 10px;
+}
+
+.footer-grid > div {
+/*    background-color: rgba(255, 255, 255, 0.8);*/
+    text-align: center;
+    padding: 20px 0;
+    font-size: 10px;
+}
+
+.item {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    text-align: center;
 }
