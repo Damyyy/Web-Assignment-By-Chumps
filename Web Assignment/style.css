@@ -1,9 +1,30 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: whitesmoke;
+    color: black;
 }
-
-
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: #ffcc00;
+    text-decoration: underline;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: disc;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: #ffcc00;
+}
 
 /* NAV BAR */
 header {}
@@ -363,15 +384,6 @@ footer {
 
 footer h5 {
     color: black;
-}
-
-footer p {
-    color: darkgray;
-}
-
-footer ul {
-    list-style-type: circle;
-    text-align: left;
 }
 
 /*Cuisine Page*/
