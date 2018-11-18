@@ -1,30 +1,17 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: whitesmoke;
+    background-color: white;
     color: black;
 }
-a{
+nav a{
     color: black;
     text-decoration: none;
     font-weight: bold;
 }
-a:hover{
-    color: #ffcc00;
-    text-decoration: underline;
-}
-footer a{
-    color: black;
-    text-decoration: none;
-    line-height: 50px;
-    font-size: 20px;
-    font-weight: bold;
-    list-style-type: disc;
-}
-footer a:hover{
-    text-decoration: underline;
-    color: #ffcc00;
-}
+
+
+
 
 /* NAV BAR */
 header {}
@@ -136,7 +123,7 @@ body {
 
 /* Change the link color to #111 (black) on hover */
 nav li a:hover {
-    background-color: orange;
+    background-color: #ffcc00;
 }
 
 
@@ -551,18 +538,20 @@ td {
     color: black;
 }
 /*Footer nav thing*/
-/*Someone make this neat plz*/
+/*All Footer RELATED PLEASE PUT HERE*/
 .foot{
-    font-size: 15px;
-    list-style-type: none;
-    text-align: center;
-     padding: 0px;
-}
-.toes{
-    font-size: 15px;
+    font-size: 11px;
     list-style-type: none;
     text-align: center;
     padding: 0px;
+    margin: auto;
+}
+.toes{
+    font-size: 11px;
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+    margin: auto;
 }
 
 
@@ -579,10 +568,37 @@ td {
     text-align: center;
     padding: 20px 0;
     font-size: 10px;
+    display: inline-block;
 }
 
 .item {
     grid-column-start: 1;
     grid-column-end: 1;
     text-align: center;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+/*    line-height: 50px;*/
+    font-size: 12px;
+    list-style-type: disc;
+    padding: 5px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #ffcc00;
+}
+
+.item2 p{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.item p{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
 }
