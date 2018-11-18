@@ -380,8 +380,6 @@ article.cuisine {
 }
 
 img.cuisine {
-    border: 1px solid #ddd;
-    border-radius: 4px;
     padding: 5px;
     width: 500px;
 }
@@ -399,16 +397,12 @@ article.events {
 }
 
 img.events {
-    border: 1px solid #ddd;
-    border-radius: 4px;
     padding: 5px;
     width: 500px;
 }
 
 /*Attractions*/
 img.attractions {
-    border: 1px solid #ddd;
-    border-radius: 4px;
     padding: 5px;
     width: 500px;
 }
@@ -420,8 +414,6 @@ article.attractions {
 
 /*Landmark*/
 img.landmark {
-    border: 1px solid #ddd;
-    border-radius: 4px;
     padding: 5px;
     width: 500px;
 }
