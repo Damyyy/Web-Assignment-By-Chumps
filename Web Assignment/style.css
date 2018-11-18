@@ -4,7 +4,7 @@ body{
     background-color: white;
     color: black;
 }
-a{
+nav a{
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -548,12 +548,14 @@ td {
     list-style-type: none;
     text-align: center;
     padding: 0px;
+    margin: auto;
 }
 .toes{
     font-size: 11px;
     list-style-type: none;
     text-align: center;
     padding: 0px;
+    margin: auto;
 }
 
 
@@ -584,7 +586,6 @@ footer a{
     text-decoration: none;
 /*    line-height: 50px;*/
     font-size: 12px;
-    font-weight: bold;
     list-style-type: disc;
     padding: 5px;
 }
@@ -592,4 +593,16 @@ footer a{
 footer a:hover{
     text-decoration: underline;
     color: #ffcc00;
+}
+
+.item2 p{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.item p{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
 }
