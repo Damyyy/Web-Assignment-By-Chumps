@@ -405,13 +405,52 @@ img.events {
 /*Attractions*/
 img.attractions {
     padding: 5px;
-    width: 500px;
+    width: 100%;
 }
 
 article.attractions {
     margin-left: 10%;
     margin-right: 10%;
 }
+
+.attractions-heading {
+    width: 100%;
+    text-align: center;
+    border-bottom: 10px solid #ffcc00;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    font-family: sans-serif;
+    padding-top: 40px;
+}
+
+.attractions-heading span {
+    background: #fff;
+    padding: 0 10px;
+    font-size: 50px;
+}
+
+
+.attractions-heading2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 10px solid #ffcc00;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    font-family: sans-serif;
+    padding-top: 40px;
+}
+
+.attractions-heading2 span {
+    background: #fff;
+    padding: 0 10px;
+    font-size: 40px;
+}
+
+
+
+
+
+
 
 /*Landmark*/
 img.landmark {
@@ -624,5 +663,6 @@ footer a:hover {
 }
 
 footer p{
-    color: white
+    color: white;
+    font-family: sans-serif;
 }
