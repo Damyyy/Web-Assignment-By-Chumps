@@ -10,9 +10,14 @@ nav a {
     text-decoration: none;
     font-weight: bold;
 }
+/*Disclaimer*/
+h5, p.disclaimer{
+    text-align: center;
+}
 
-
-
+p.disclaimer{
+    margin: 20px;
+}
 
 /* NAV BAR */
 header {}
