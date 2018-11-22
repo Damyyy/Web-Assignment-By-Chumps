@@ -409,18 +409,6 @@ footer h5 {
     color: black;
 }
 
-/*Cuisine Page*/
-/*
-article.cuisine {
-    margin-left: 10%;
-    margin-right: 10%
-}
-
-img.cuisine {
-    padding: 5px;
-    width: 500px;
-}
-*/
 
 /*Awards Page*/
 
@@ -429,6 +417,7 @@ figure.awardpage {
 }
 
 /*Events*/
+/*
 article.events {
     margin-left: 10%;
     margin-right: 10%;
@@ -438,6 +427,7 @@ img.events {
     padding: 5px;
     width: 500px;
 }
+*/
 
 /****** THIS IS GENERAL STYLING ******/
 .general-heading-style {
