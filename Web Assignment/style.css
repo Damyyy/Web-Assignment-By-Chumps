@@ -322,6 +322,10 @@ div h1 {
     font-weight: bold;
     margin-right: 9px;
 }
+.about_penang_text p{
+    font-size: 18px;
+}
+
 
 .about_penang_text_container {
     padding: 40px;
@@ -337,7 +341,6 @@ div h1 {
     background-color: #4885ed;
     color: white;
 }
-
 
 
 
@@ -444,8 +447,10 @@ img.attractions {
 }
 
 article.attractions {
+/*
     margin-left: 10%;
     margin-right: 10%;
+*/
 }
 
 .attractions-heading {
@@ -480,6 +485,53 @@ article.attractions {
     padding: 0 10px;
     font-size: 40px;
 }
+
+
+.grid-container-content-pages {
+  display: grid;
+  grid-column-gap: 15px;
+  grid-template-columns: auto auto auto;
+
+}
+.grid-item-content-pages {
+  text-align: center;
+}
+
+
+.thisImage{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.other-pages-content{
+    padding: 2%;
+}
+
+
+.text_container_content {
+    padding: 40px;
+}
+
+
+.text_content {
+    border-radius: 15px 50px 30px;
+    background: #ffcc00;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 5px 5px 15px 5px grey;
+}
+
+.text_content p {
+    font-size: 18px;
+}
+
+
+
+
+
 
 
 
@@ -719,5 +771,5 @@ footer a:hover {
 
 footer p {
     color: white;
-    font-family: Raleway, sans-serif;
+    font-family:Raleway, sans-serif;
 }
