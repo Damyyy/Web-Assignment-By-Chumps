@@ -312,7 +312,7 @@ div h1 {
 }
 
 /*Dropcap about Penang paragraph*/
-.about_penang_text_container :first-letter {
+.about_penang_text p:first-letter {
     float: left;
     font-size: 60px;
     line-height: 1;
@@ -323,6 +323,29 @@ div h1 {
 .about_penang_text_container {
     padding: 40px;
 }
+
+.button1 {
+    background-color: #ffcc00; 
+    color: black; 
+    border: 2px solid black;
+}
+
+.button1:hover {
+    background-color: #4885ed;
+    color: white;
+}
+
+
+
+
+.about_penang_text {
+    border-radius: 15px 50px 30px;
+    background: #ffcc00;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 5px 5px 15px 5px grey;
+}
+
 
 /*ABOUT
 PENANG PAGE*/
@@ -691,7 +714,7 @@ footer a:hover {
     font-weight: bold;
 }
 
-footer p{
+footer p {
     color: white;
     font-family: sans-serif;
 }
