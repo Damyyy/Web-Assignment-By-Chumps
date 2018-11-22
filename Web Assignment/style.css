@@ -1,9 +1,14 @@
+@font-face { font-family:Raleway ; src: url(fonts/Raleway-Regular.ttf); } 
+
+
 body {
     margin: 0;
     padding: 0;
     background-color: white;
     color: black;
     overflow-x: hidden;
+    font-family: Raleway, sans-serif;
+    
 }
 
 p.about {
@@ -142,9 +147,7 @@ nav li a:hover {
     box-sizing: border-box;
 }
 
-body {
-    font-family: Verdana, sans-serif;
-}
+
 
 .mySlides {
     display: none;
@@ -451,7 +454,7 @@ article.attractions {
     border-bottom: 10px solid #ffcc00;
     line-height: 0.1em;
     margin: 10px 0 20px;
-    font-family: sans-serif;
+    font-family: Raleway;
     padding-top: 40px;
 }
 
@@ -468,7 +471,7 @@ article.attractions {
     border-bottom: 10px solid #ffcc00;
     line-height: 0.1em;
     margin: 10px 0 20px;
-    font-family: sans-serif;
+    font-family: Raleway, sans-serif ;
     padding-top: 40px;
 }
 
@@ -703,18 +706,18 @@ footer a:hover {
 }
 
 .item2 p {
-    font-family: sans-serif;
+    font-family:Raleway, sans-serif;
     font-size: 15px;
     font-weight: bold;
 }
 
 .item p {
-    font-family: sans-serif;
+    font-family: Raleway, sans-serif;
     font-size: 15px;
     font-weight: bold;
 }
 
 footer p {
     color: white;
-    font-family: sans-serif;
+    font-family: Raleway, sans-serif;
 }
