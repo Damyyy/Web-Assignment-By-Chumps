@@ -407,6 +407,7 @@ p.about_penang {
 
 footer {
     text-align: center;
+    overflow: auto;
 }
 
 footer h5 {
