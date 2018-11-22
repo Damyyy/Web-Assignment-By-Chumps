@@ -368,7 +368,7 @@ PENANG PAGE*/
     font-size: 100px;
     font-weight: bold;
     float: left;
-    background-color: whitesmoke;
+    background-color: white;
     padding: auto;
 }
 
@@ -499,13 +499,18 @@ article.landmark {
 }
 
 /*Feedback Form*/
+div.container{
+    background-color: white;
+}
 article.feedback {
     margin-left: 10%;
     margin-right: 10%;
+    background-color: white;
 }
 
 legend {
     font-size: 20px;
+    color: black;
 }
 
 legend,
@@ -515,7 +520,7 @@ label {
 
 fieldset {
     margin-bottom: 30px;
-    border: 1px solid #222222;
+    border: 2px solid black;
 }
 
 td,
