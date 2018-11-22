@@ -308,10 +308,20 @@
                     </table>
                 </fieldset>
                 <fieldset>
-                    <legend>Feedback</legend>
+                    <legend>Our Website</legend>
                     <table>
                         <tr>
-                            <label for="subject">4. How do you feel about our website?</label>
+                            <label for="fname">4. Why did you visit this website?</label>
+                            <input type="text" id="Reason" name="Reason" placeholder="Your reason..">
+                        </tr>
+                        <tr>
+                            <label for="subject">5. Did you find the website to be useful?</label><br>
+                            <input type="radio" name="useful" value="Very useful" checked>Yes, everything here is very useful<br>
+                            <input type="radio" name="useful" value="Somewhat useful">Some of it are useful<br>
+                            <input type="radio" name="useful" value="Not useful">This website is not useful to me <br><br>
+                        </tr>
+                        <tr>
+                            <label for="subject">6. How do you feel about our website?</label>
                             <br>
                             <table>
                                 <tr>
@@ -329,14 +339,14 @@
                         </tr>
                         <br>
                         <tr>
-                            <td><label for="improvements">5. Improvements(You may choose more than one)</label></td><br>
+                            <td><label for="improvements">7. Improvements(You may choose more than one)</label></td><br>
                             <input type="checkbox" name="improvements" value="design" checked>Design<br>
                             <input type="checkbox" name="improvements" value="content">Content<br>
                             <input type="checkbox" name="improvements" value="nav">Navigation<br><br>
                         </tr>
                         <tr>
-                            <td><label for="subject">6. Your Feedback</label></td>
-                            <td><textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea></td>
+                            <td><label for="subject">8. Your Feedback</label></td>
+                            <td><textarea name="feedback" placeholder="Write something.." style="height:200px"></textarea></td>
                         </tr>
                     </table>
                 </fieldset>
