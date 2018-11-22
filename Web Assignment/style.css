@@ -621,8 +621,8 @@ article.tourism {
 
 .image-member {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 55%;
+/*    height: 20%;*/
     object-fit: cover;
     border-radius: 50%;
 }
@@ -730,5 +730,8 @@ footer p {
     font-family: Raleway, sans-serif;
     font-size: 20px;
     font-weight: bold;
+}
 
+.copyright{
+    font-size: 10px;
 }
