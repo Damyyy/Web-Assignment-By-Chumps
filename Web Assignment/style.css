@@ -1,4 +1,7 @@
-@font-face { font-family:Raleway ; src: url(fonts/Raleway-Regular.ttf); } 
+@font-face {
+    font-family: Raleway;
+    src: url(fonts/Raleway-Regular.ttf);
+}
 
 
 body {
@@ -8,7 +11,7 @@ body {
     color: black;
     overflow-x: hidden;
     font-family: Raleway, sans-serif;
-    
+
 }
 
 p.about {
@@ -322,7 +325,8 @@ div h1 {
     font-weight: bold;
     margin-right: 9px;
 }
-.about_penang_text p{
+
+.about_penang_text p {
     font-size: 18px;
 }
 
@@ -332,8 +336,8 @@ div h1 {
 }
 
 .button1 {
-    background-color: #ffcc00; 
-    color: black; 
+    background-color: #ffcc00;
+    color: black;
     border: 2px solid black;
 }
 
@@ -442,23 +446,23 @@ figure.awardpage {
     border-bottom: 10px solid #ffcc00;
     line-height: 0.1em;
     margin: 10px 0 20px;
-    font-family: Raleway, sans-serif ;
+    font-family: Raleway, sans-serif;
     padding-top: 40px;
 }
 
 .general-heading-style2 span {
     background: #fff;
     padding: 0 10px;
-     font-size: 3vw;
+    font-size: 3vw;
 }
 
 
-.general-image{
+.general-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    
+
 }
 
 
@@ -494,8 +498,9 @@ figure.awardpage {
 
 
 
+/*
 
-/*Landmark*/
+Landmark
 img.landmark {
     padding: 5px;
     width: 500px;
@@ -505,11 +510,13 @@ article.landmark {
     margin-left: 10%;
     margin-right: 10%;
 }
+*/
 
 /*Feedback Form*/
-div.container{
+div.container {
     background-color: white;
 }
+
 article.feedback {
     margin-left: 10%;
     margin-right: 10%;
@@ -631,10 +638,10 @@ article.tourism {
 
 /*Table for About Penang*/
 table.about_penang {
-   margin: auto;
+    margin: auto;
     text-align: center;
     border-collapse: collapse;
-    
+
 }
 
 table.about_penang,
@@ -658,7 +665,6 @@ td.about_penang {
     color: white;
 }
 
-/*Footer nav thing*/
 /*All Footer RELATED PLEASE PUT HERE*/
 
 footer {
@@ -687,12 +693,10 @@ footer {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
-    /*        background-color: #2196F3;*/
     padding: 10px;
 }
 
 .footer-grid > div {
-    /*    background-color: rgba(255, 255, 255, 0.8);*/
     text-align: center;
     padding: 20px 0;
     font-size: 10px;
@@ -708,10 +712,10 @@ footer {
 footer a {
     color: white;
     text-decoration: none;
-    /*    line-height: 50px;*/
+    line-height: 20px;
     font-size: 12px;
     list-style-type: disc;
-    padding: 5px;
+    /*    padding: 10px;*/
 }
 
 footer a:hover {
@@ -719,19 +723,12 @@ footer a:hover {
     color: #ffcc00;
 }
 
-.item2 p {
-    font-family:Raleway, sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-}
 
-.item p {
-    font-family: Raleway, sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-}
 
 footer p {
     color: white;
-    font-family:Raleway, sans-serif;
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
 }
