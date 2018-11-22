@@ -376,9 +376,6 @@ PENANG PAGE*/
 }
 
 
-.about_picture_1 {
-    float: right;
-}
 
 
 .about_penang_text_container_about_page :first-letter {
@@ -413,6 +410,7 @@ footer h5 {
 }
 
 /*Cuisine Page*/
+/*
 article.cuisine {
     margin-left: 10%;
     margin-right: 10%
@@ -422,6 +420,7 @@ img.cuisine {
     padding: 5px;
     width: 500px;
 }
+*/
 
 /*Awards Page*/
 
@@ -440,6 +439,78 @@ img.events {
     width: 500px;
 }
 
+/****** THIS IS GENERAL STYLING ******/
+.general-heading-style {
+    width: 100%;
+    text-align: center;
+    border-bottom: 10px solid #ffcc00;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    font-family: Raleway;
+    padding-top: 40px;
+}
+
+.general-heading-style span {
+    background: #fff;
+    padding: 0 10px;
+    font-size: 3.5vw;
+}
+
+
+.general-heading-style2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 10px solid #ffcc00;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    font-family: Raleway, sans-serif ;
+    padding-top: 40px;
+}
+
+.general-heading-style2 span {
+    background: #fff;
+    padding: 0 10px;
+     font-size: 3vw;
+}
+
+
+.general-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+
+
+.general-text-container {
+    padding: 40px;
+}
+
+
+.general-text-content {
+    border-radius: 15px 50px 30px;
+    background: #ffcc00;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 5px 5px 15px 5px grey;
+}
+
+.general-text-content p {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+/****** END OF GENERAL STYLING ******/
+
+
+
 /*Attractions*/
 img.attractions {
     padding: 5px;
@@ -453,40 +524,10 @@ article.attractions {
 */
 }
 
-.attractions-heading {
-    width: 100%;
-    text-align: center;
-    border-bottom: 10px solid #ffcc00;
-    line-height: 0.1em;
-    margin: 10px 0 20px;
-    font-family: Raleway;
-    padding-top: 40px;
-}
-
-.attractions-heading span {
-    background: #fff;
-    padding: 0 10px;
-    font-size: 50px;
-}
 
 
-.attractions-heading2 {
-    width: 100%;
-    text-align: center;
-    border-bottom: 10px solid #ffcc00;
-    line-height: 0.1em;
-    margin: 10px 0 20px;
-    font-family: Raleway, sans-serif ;
-    padding-top: 40px;
-}
 
-.attractions-heading2 span {
-    background: #fff;
-    padding: 0 10px;
-    font-size: 40px;
-}
-
-
+/*
 .grid-container-content-pages {
   display: grid;
   grid-column-gap: 15px;
@@ -504,29 +545,14 @@ article.attractions {
     height: 100%;
     object-fit: cover;
 }
-
+*/
 
 .other-pages-content{
     padding: 2%;
 }
 
 
-.text_container_content {
-    padding: 40px;
-}
 
-
-.text_content {
-    border-radius: 15px 50px 30px;
-    background: #ffcc00;
-    padding: 20px;
-    margin: auto;
-    box-shadow: 5px 5px 15px 5px grey;
-}
-
-.text_content p {
-    font-size: 18px;
-}
 
 /*Landmark*/
 img.landmark {
@@ -664,9 +690,10 @@ article.tourism {
 
 /*Table for About Penang*/
 table.about_penang {
-    margin-right: 5px;
+   margin: auto;
+    text-align: center;
     border-collapse: collapse;
-    float: right;
+    
 }
 
 table.about_penang,
