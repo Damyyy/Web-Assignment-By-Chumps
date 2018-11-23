@@ -26,15 +26,21 @@ nav a {
 }
 
 /*Disclaimer*/
-h5,
+h5 {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
 p.disclaimer {
     text-align: center;
+    margin: 0 20px;
+    color: white;
 }
-
-p.disclaimer {
-    margin: 20px;
+div.disclaimer{
+    background-color: #333;
+    padding: 15px;
 }
-
 /* NAV BAR */
 header {}
 
@@ -278,7 +284,10 @@ div h1 {
     text-decoration-color: gray;
     font-size: 50px;
 }
-
+ul.funfact{
+    font-size: 20px;
+    line-height: 30px;
+}
 /*GRID CSS*/
 .grid-container {
     display: grid;
@@ -408,6 +417,7 @@ p.about_penang {
 footer {
     text-align: center;
     overflow: auto;
+    font-size: 20px;
 }
 
 footer h5 {
@@ -482,7 +492,8 @@ figure.awardpage {
 }
 
 .general-text-content p {
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 30px
 }
 
 
@@ -713,8 +724,8 @@ footer {
 footer a {
     color: white;
     text-decoration: none;
-    line-height: 20px;
-    font-size: 12px;
+    line-height: 30px;
+    font-size: 20px;
     list-style-type: disc;
     /*    padding: 10px;*/
 }
@@ -734,5 +745,6 @@ footer p {
 }
 
 .copyright{
-    font-size: 10px;
+    font-size: 15px;
+    margin-bottom: 15px;
 }
