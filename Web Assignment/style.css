@@ -3,7 +3,6 @@
     src: url(fonts/Raleway-Regular.ttf);
 }
 
-
 body {
     margin: 0;
     padding: 0;
@@ -39,7 +38,8 @@ p.disclaimer {
 }
 div.disclaimer{
     background-color: #333;
-    padding: 15px;
+    padding: 20px;
+    padding-bottom: 50px;
 }
 /* NAV BAR */
 header {}
@@ -525,6 +525,9 @@ article.landmark {
 */
 
 /*Feedback Form*/
+form{
+    font-family: Roboto, sans-serif;
+}
 div.container {
     background-color: white;
 }
