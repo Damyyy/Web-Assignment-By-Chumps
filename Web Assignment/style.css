@@ -134,6 +134,7 @@ nav li {
     align-self: stretch;
     margin: 0 auto;
     text-align: center;
+    font-size: 20px;
 }
 
 nav li a {
@@ -385,7 +386,7 @@ PENANG PAGE*/
     font-weight: bold;
     float: left;
     background-color: white;
-    padding: auto;
+    padding: 0;
 }
 
 
@@ -394,7 +395,7 @@ PENANG PAGE*/
 .about_penang_text_container_about_page :first-letter {
     clear: both;
     float: left;
-    font-size: 1;
+    font-size: 1px;
     line-height: 100px;
     font-weight: bold;
     margin-right: 9px;
@@ -683,7 +684,6 @@ td.about_penang {
 /*All Footer RELATED PLEASE PUT HERE*/
 
 footer {
-
     background-color: #222222;
 }
 
@@ -728,7 +728,7 @@ footer a {
     color: white;
     text-decoration: none;
     line-height: 30px;
-    font-size: 20px;
+    font-size: 16px;
     list-style-type: disc;
     /*    padding: 10px;*/
 }
