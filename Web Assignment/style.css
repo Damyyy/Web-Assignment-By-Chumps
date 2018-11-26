@@ -325,19 +325,10 @@ ul.funfact{
     padding: 0 4px;
 }
 
-/* Create two equal columns that sits next to each other */
-.column {
-    flex: 50%;
-    padding: 0 4px;
-}
 
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-}
 
-/*Dropcap about Penang paragraph*/
-.about_penang_text p:first-letter {
+/*Dropcap index page*/
+.index-text p:first-letter {
     float: left;
     font-size: 60px;
     line-height: 1;
@@ -345,30 +336,21 @@ ul.funfact{
     margin-right: 9px;
 }
 
-.about_penang_text p {
-    font-size: 18px;
+.index-text p {
+    font-size: 20px;
 }
 
 
-.about_penang_text_container {
+.index-text-container {
     padding: 40px;
 }
 
-.button1 {
-    background-color: #ffcc00;
-    color: black;
-    border: 2px solid black;
-}
-
-.button1:hover {
-    background-color: #4885ed;
-    color: white;
-}
 
 
 
 
-.about_penang_text {
+
+.index-text {
     border-radius: 15px 50px 30px;
     background: #ffcc00;
     padding: 20px;
@@ -402,7 +384,7 @@ PENANG PAGE*/
 
 
 
-.about_penang_text_container_about_page :first-letter {
+.index-text_container_about_page :first-letter {
     clear: both;
     float: left;
     font-size: 1px;
@@ -411,7 +393,7 @@ PENANG PAGE*/
     margin-right: 9px;
 }
 
-.about_penang_text_container_about_page {
+.index-text_container_about_page {
     padding: 5%;
     clear: both;
     line-height: 30px;
@@ -496,6 +478,20 @@ figure.awardpage {
     line-height: 30px
 }
 
+
+.button1 {
+    background-color: #ffcc00;
+    color: black;
+    border: 2px solid black;
+    font-family: Raleway, sans-serif;
+    font-size: 15px;
+     
+}
+
+.button1:hover {
+    background-color: #4885ed;
+    color: white;
+}
 
 
 
