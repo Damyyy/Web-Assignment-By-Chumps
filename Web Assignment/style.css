@@ -415,17 +415,6 @@ p.about_penang {
 }
 */
 
-footer {
-    text-align: center;
-    overflow: auto;
-    font-size: 20px;
-}
-
-footer h5 {
-    color: black;
-}
-
-
 /*Awards Page*/
 
 figure.awardpage {
@@ -682,9 +671,16 @@ td.about_penang {
 }
 
 /*All Footer RELATED PLEASE PUT HERE*/
+footer h5 {
+    color: black;
+}
+
 
 footer {
     background-color: #222222;
+    text-align: center;
+    overflow: auto;
+    font-size: 20px;
 }
 
 .foot {
@@ -706,7 +702,7 @@ footer {
 
 .footer-grid {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 32% 32% 32%;
     grid-gap: 10px;
     padding: 10px;
 }
@@ -718,9 +714,15 @@ footer {
     display: inline-block;
 }
 
-.item {
+.footeritem1 {
     grid-column-start: 1;
     grid-column-end: 1;
+    text-align: center;
+}
+
+.footeritem2 {
+    grid-column-start: 3;
+    grid-column-end: 3;
     text-align: center;
 }
 
