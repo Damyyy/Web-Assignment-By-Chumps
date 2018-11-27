@@ -41,10 +41,12 @@ p a:hover {
     padding-top: 40px;
 }
 
-h1 span {
+.headingLine span {
     background: #fff;
     padding: 0 10px;
+    
 }
+
 
 
 
@@ -233,6 +235,10 @@ img {
 }
 
 
+.slideshow-dots{
+    text-align: center;
+}
+
 /*ABOUT PENANG STYLE*/
 /*Table*/
 table.about_penang {
@@ -335,10 +341,14 @@ div h1 {
     padding-top: 40px;
 }
 
+
+
+
+
 .general-heading-style span {
     background: #fff;
     padding: 0 10px;
-    font-size: 3.5vw;
+    font-size: 50px;
 }
 
 
@@ -355,7 +365,7 @@ div h1 {
 .general-heading-style2 span {
     background: #fff;
     padding: 0 10px;
-    font-size: 3vw;
+    font-size: 40px;
 }
 
 
@@ -363,7 +373,7 @@ div h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 60%;
 
 }
 
