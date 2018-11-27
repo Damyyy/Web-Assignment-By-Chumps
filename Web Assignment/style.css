@@ -380,12 +380,17 @@ div h1 {
 
 .general-text-content p {
     font-size: 20px;
-    line-height: 30px
+    line-height: 30px;
 }
 
 .general-text-content ul {
     font-size: 20px;
-    line-height: 30px
+    line-height: 30px;
+}
+
+.general-text-content dl {
+    font-size: 20px;
+    line-height: 30px;
 }
 
 
