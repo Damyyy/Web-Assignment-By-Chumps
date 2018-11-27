@@ -1,3 +1,8 @@
+/*Description: FST10011 Fundamentals of Web Technology: Web Development Assignments */
+/*Authors: Khaw Wei Jin, Mozes Ong, Wong Jun Jie */
+/*Date: 13/10/2018 */
+/*Validated: 27/11/2018 */
+
 @font-face {
     font-family: Raleway;
     src: url(fonts/Raleway-Regular.ttf);
@@ -13,47 +18,18 @@ body {
 
 }
 
-p.about {
-    margin-left: 20px;
-    margin-right: 20px;
+p a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
 }
 
-nav a {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-}
-p a{
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-}
-p a:hover{
+p a:hover {
     color: red;
     text-decoration: underline;
 }
 
-/*Disclaimer*/
-h5 {
-    text-align: center;
-    color: white;
-    font-size: 16px;
-}
-
-p.disclaimer {
-    text-align: center;
-    margin: 0 20px;
-    color: white;
-}
-div.disclaimer{
-    background-color: #333;
-    padding: 20px;
-    padding-bottom: 50px;
-}
 /* NAV BAR */
-header {}
-
-
 /* TITLE */
 .headingLine {
     width: 100%;
@@ -72,11 +48,7 @@ h1 span {
 
 
 .nav_container {
-    /*    padding: 10px;*/
-    /*    align-content: center;*/
     align-items: center;
-    /*    text-align: center;*/
-    /*  background-color: yellow;*/
     background-color: #333;
     margin: auto;
     text-align: center;
@@ -85,10 +57,6 @@ h1 span {
     padding-right: 10%;
     display: block;
 
-    /*
-    padding-left: 100px;
-    padding-right: 100px;
-*/
 }
 
 .logo_container {
@@ -96,15 +64,8 @@ h1 span {
     margin: auto;
     float: left;
     width: 20%;
-    /*    padding-left: 250px;*/
-    /*    text-align: center;*/
 }
 
-/*
-.nav_list{
-    width: 50%; 
-}
-*/
 .logo {
     width: 200px;
     text-align: center;
@@ -113,15 +74,16 @@ h1 span {
 
 nav {
     padding-top: 10px;
-    /*    padding: 20px;*/
-    /*    width: 100%;*/
     height: auto;
-    /*    margin: 0 auto;*/
     list-style: none;
-    /*    text-align: center;*/
-    /*    background-color: #333;*/
     text-align: right;
 
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 nav ul {
@@ -131,10 +93,7 @@ nav ul {
     padding-bottom: 10px;
     overflow: hidden;
     display: inline-block;
-    /*    width: 80%;*/
     text-align: center;
-    /*    background-color: aqua;*/
-    /*    background-color: #333;*/
 }
 
 nav li {
@@ -151,7 +110,6 @@ nav li a {
     text-align: center;
     padding: 20px;
     text-decoration: none;
-    /*    align-self: stretch;*/
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -178,12 +136,8 @@ img {
 /* Slideshow container */
 .slideshow-container {
     display: inline-block;
-    /*    display: block;*/
     max-width: 100000px;
-    /*    position: inherit;*/
-    /*    position: relative;*/
     margin: auto;
-/*    height: 90%;*/
 
 }
 
@@ -221,16 +175,6 @@ img {
 .active {
     background-color: #717171;
 }
-
-/* Fading animation */
-/*
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-*/
 
 @-webkit-keyframes fade {
     from {
@@ -288,16 +232,36 @@ img {
 }
 
 
-/*ABOUT PENANG STYPE*/
-div h1 {
+/*ABOUT PENANG STYLE*/
+/*Table*/
+table.about_penang {
+    margin: auto;
     text-align: center;
-    text-decoration-color: gray;
-    font-size: 50px;
+    border-collapse: collapse;
+
 }
-ul.funfact{
-    font-size: 20px;
-    line-height: 30px;
+
+table.about_penang,
+th.about_penang,
+td.about_penang {
+    border: 2px solid black;
 }
+
+th.about_penang,
+td.about_penang {
+    padding: 5px;
+}
+
+th.about_penang {
+    background-color: #ffcc00;
+    color: black;
+}
+
+td.about_penang {
+    background-color: #222222;
+    color: white;
+}
+
 /*GRID CSS*/
 .grid-container {
     display: grid;
@@ -355,63 +319,6 @@ ul.funfact{
     box-shadow: 5px 5px 15px 5px grey;
 }
 
-
-/*ABOUT
-PENANG PAGE*/
-
-
-.parent_container {
-    width: 100%;
-    padding-top: 20px;
-    padding: 50px;
-
-
-
-}
-
-.heading_text {
-    text-align: left;
-    font-size: 100px;
-    font-weight: bold;
-    float: left;
-    background-color: white;
-    padding: 0;
-}
-
-
-
-
-.index-text_container_about_page :first-letter {
-    clear: both;
-    float: left;
-    font-size: 1px;
-    line-height: 100px;
-    font-weight: bold;
-    margin-right: 9px;
-}
-
-.index-text_container_about_page {
-    padding: 5%;
-    clear: both;
-    line-height: 30px;
-
-}
-
-/*
-p.about_penang {
-    margin-left: 20%;
-    margin-right: 20%;
-}
-*/
-
-/*Awards Page*/
-
-figure.awardpage {
-    text-align: center;
-}
-
-
-
 /****** THIS IS GENERAL STYLING ******/
 .general-heading-style {
     width: 100%;
@@ -455,12 +362,9 @@ figure.awardpage {
 
 }
 
-
-
 .general-text-container {
     padding: 40px;
 }
-
 
 .general-text-content {
     border-radius: 15px 50px 30px;
@@ -475,6 +379,11 @@ figure.awardpage {
     line-height: 30px
 }
 
+.general-text-content ul {
+    font-size: 20px;
+    line-height: 30px
+}
+
 
 .button1 {
     background-color: #ffcc00;
@@ -482,7 +391,7 @@ figure.awardpage {
     border: 2px solid black;
     font-family: Raleway, sans-serif;
     font-size: 15px;
-     
+    cursor: pointer;
 }
 
 .button1:hover {
@@ -490,44 +399,14 @@ figure.awardpage {
     color: white;
 }
 
-
-
-
-
-
 /****** END OF GENERAL STYLING ******/
 
-
-
-
-
-
-
-/*
-
-Landmark
-img.landmark {
-    padding: 5px;
-    width: 500px;
-}
-
-article.landmark {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-*/
-
 /*Feedback Form*/
-form{
+form {
     font-family: Roboto, sans-serif;
 }
-div.container {
-    background-color: white;
-}
 
-article.feedback {
-    margin-left: 10%;
-    margin-right: 10%;
+div.container {
     background-color: white;
 }
 
@@ -559,21 +438,13 @@ input[type=text],
 select,
 textarea {
     width: 100%;
-    /* Full width */
     padding: 12px;
-    /* Some padding */
     border: 1px solid #ccc;
-    /* Gray border */
     border-radius: 4px;
-    /* Rounded borders */
     box-sizing: border-box;
-    /* Make sure that padding and width stays in place */
     margin-top: 6px;
-    /* Add a top margin */
     margin-bottom: 16px;
-    /* Bottom margin */
     resize: vertical;
-    /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 
@@ -598,30 +469,15 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
-/*About Us*/
-img.tourism {
-    text-align: center;
-    padding: 5px;
-    width: 500px;
-}
-
-article.tourism {
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
 /*Skyler Corp */
-
 .members-grid {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
-    /*    background-color: #2196F3;*/
     padding: 10px;
 }
 
 .members-grid > div {
-    /*    background-color: rgba(255, 255, 255, 0.8);*/
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
@@ -630,7 +486,6 @@ article.tourism {
 .image-member {
     position: relative;
     width: 55%;
-/*    height: 20%;*/
     object-fit: cover;
     border-radius: 50%;
 }
@@ -644,41 +499,27 @@ article.tourism {
     font-size: 15px;
 }
 
-/*Table for About Penang*/
-table.about_penang {
-    margin: auto;
+/*Disclaimer*/
+h5 {
     text-align: center;
-    border-collapse: collapse;
-
+    color: white;
+    font-size: 16px;
 }
 
-table.about_penang,
-th.about_penang,
-td.about_penang {
-    border: 2px solid black;
-}
-
-th.about_penang,
-td.about_penang {
-    padding: 5px;
-}
-
-th.about_penang {
-    background-color: #ffcc00;
-    color: black;
-}
-
-td.about_penang {
-    background-color: #222222;
+p.disclaimer {
+    text-align: center;
+    margin: 0 20px;
     color: white;
 }
 
-/*All Footer RELATED PLEASE PUT HERE*/
-footer h5 {
-    color: black;
+div.disclaimer {
+    background-color: #333;
+    padding: 20px;
+    padding-bottom: 50px;
 }
 
 
+/*All Footer RELATED PLEASE PUT HERE*/
 footer {
     background-color: #222222;
     text-align: center;
@@ -735,7 +576,6 @@ footer a {
     line-height: 30px;
     font-size: 16px;
     list-style-type: disc;
-    /*    padding: 10px;*/
 }
 
 footer a:hover {
@@ -752,7 +592,7 @@ footer p {
     font-weight: bold;
 }
 
-.copyright{
+.copyright {
     font-size: 15px;
     margin-bottom: 15px;
 }
