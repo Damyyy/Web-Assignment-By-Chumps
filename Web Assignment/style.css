@@ -309,7 +309,9 @@ td.about_penang {
 
 .index-text p {
     font-size: 20px;
+    line-height: 30px;
 }
+
 
 
 .index-text-container {
@@ -330,7 +332,6 @@ td.about_penang {
 div h1 {
     font-size: 50px;
 }
-
 .general-heading-style {
     width: 100%;
     text-align: center;
