@@ -320,6 +320,10 @@ td.about_penang {
 }
 
 /****** THIS IS GENERAL STYLING ******/
+div h1 {
+    font-size: 50px;
+}
+
 .general-heading-style {
     width: 100%;
     text-align: center;
